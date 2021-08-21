@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script>
+    <title>Border Radius Previewer</title>
+</head>
+<body>
+    <h1>Border Radius Previewer</h1>
+    <div class="box-and-css-container">
+    <div class="box" id="box">
+
+        <input type="text" name="top-left" id="top-left" placeholder="px">
+        <input type="text" name="top-right" id="top-right" placeholder="px">
+        <input type="text" name="bottom-left" id="bottom-left" placeholder="px">
+        <input type="text" name="bottom-right" id="bottom-right" placeholder="px">
+
+    </div>
+
+    <div class="copy-css-container">
+    <textarea readonly class="css-code" id="css-code">
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;</textarea>
+        <div class="button" id="copy-btn">Copy</div>
+        <span class="copied" id="copied">copied</span>
+
+    </div>
+    </div>
+
+</body>
+</html>
